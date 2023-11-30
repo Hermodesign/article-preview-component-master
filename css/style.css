@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+/* ## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px */
+
+/* We provide SVGs for the social icons. But please feel free to use a font icon library if you like. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
+
+:root {
+  --color-1: hsl(217, 19%, 35%);
+  --color-2: hsl(214, 17%, 51%);
+  --color-3: hsl(212, 23%, 69%);
+  --color-4: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-4);
+  min-height: 100vh;
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 300px;
+  width: 730px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
