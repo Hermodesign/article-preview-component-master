@@ -1,27 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Article preview component</title>
-  </head>
-  <body>
-    <main class="container">
-      Shift the overall look and feel by adding these wonderful touches to
-      furniture in your home Ever been in a room and felt like something was
-      missing? Perhaps it felt slightly bare and uninviting. I’ve got some
-      simple tips to help you make any room feel complete. Michelle Appleton 28
-      Jun 2020 Share
-    </main>
-  </body>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="left-img">
+      <img src="/images/drawers.jpg" alt="" class="img-l">
+    </div>
+    <div class="right-data-box">
+      <h1 class="head">
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </h1>
+      <p class="paragraph">
+        Ever been in a room and felt like something was missing? Perhaps it
+        felt slightly bare and uninviting. I’ve got some simple tips to help
+        you make any room feel complete.
+      </p>
+      <div class="profile-box">
+        <img src="/images/avatar-michelle.jpg" alt="Avatar" class="img" />
+        <div class="name-box">
+          <div class="name">Michelle Appleton</div>
+          <div class="date">28 Jun 2020</div>
+        </div>
+        <div class="share">
+          <img src="/images/icon-share.svg" alt="Share">
+        </div>
+        <div class="share-2 hidden">
+          <img src="/images/icon-share.svg" alt="Share">
+          <div class="share-box hidden">
+            <div class="share-text">Share</div>
+            <img src="/images/icon-facebook.svg" alt="" class="icn">
+            <img src="/images/icon-twitter.svg" alt="" class="icn">
+            <img src="/images/icon-pinterest.svg" alt="" class="icn">
+          </div>
+        </div>
+      </div>
+      <div class="profile-box-2">
+        <img src="/images/avatar-michelle.jpg" alt="Avatar" class="img" />
+        <div class="name-box">
+          <div class="name">Michelle Appleton2</div>
+          <div class="date">28 Jun 2020</div>
+        </div>
+        <div class="shareMobile">
+          <img src="/images/icon-share.svg" alt="Share">
+        </div>
+
+        <div class="shareMObile-2 hidden">
+          <img src="/images/icon-share.svg" alt="Share">
+        </div>
+
+        <div class="share-box-hidden hidden">
+          <div class="icn share-text">Share</div>
+          <img src="/images/icon-facebook.svg" alt="" class="icn">
+          <img src="/images/icon-twitter.svg" alt="" class="icn">
+          <img src="/images/icon-pinterest.svg" alt="" class="icn">
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="/js/script.js"></script>
+</body>
+
 </html>
